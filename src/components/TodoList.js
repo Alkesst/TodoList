@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import Todo from './Todo'
 
 const TodoList = ({todos, onTodoClick}) => (
-    <ul>
+    <div style={{ 'margin-top': 15}}>
         {todos.map((todo, index) => (
             <Todo key={index}  {...todo} onClick={() => onTodoClick(index)} />
         ))}
-    </ul>
+    </div>
 );
 
 TodoList.propTypes = {
