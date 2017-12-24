@@ -3,7 +3,7 @@ import {
   SET_VISIBILITY_FILTER,
   ADD_TODO,
   TOGGLE_TODO
-  } from './Actions'
+  } from './actions'
 import { combineReducers } from 'redux'
 const { SHOW_ALL } = VisibilityFilters
 /*
