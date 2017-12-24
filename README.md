@@ -1,6 +1,6 @@
 # TodoList
 
-Todo list proposed in [Redux Tutorial][1] with style with Bootstrap.
+Todo list proposed in [Redux Tutorial][1] and some style made with Bootstrap.
 ## Requirements
  - `node` 
  - Bootstrap
